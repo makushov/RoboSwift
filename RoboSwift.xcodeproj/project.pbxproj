@@ -9,13 +9,13 @@
 /* Begin PBXBuildFile section */
 		2A917F7A2710596D001227AA /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A917F792710596D001227AA /* AppDelegate.swift */; };
 		2A917F7C2710596D001227AA /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A917F7B2710596D001227AA /* ViewController.swift */; };
-		2A917F7E2710596D001227AA /* Experience.rcproject in Sources */ = {isa = PBXBuildFile; fileRef = 2A917F7D2710596D001227AA /* Experience.rcproject */; };
 		2A917F812710596D001227AA /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2A917F7F2710596D001227AA /* Main.storyboard */; };
 		2A917F832710596F001227AA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2A917F822710596F001227AA /* Assets.xcassets */; };
 		2A917F862710596F001227AA /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2A917F842710596F001227AA /* LaunchScreen.storyboard */; };
 		2A917F902710596F001227AA /* RoboSwiftTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A917F8F2710596F001227AA /* RoboSwiftTests.swift */; };
 		2A917F9A2710596F001227AA /* RoboSwiftUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A917F992710596F001227AA /* RoboSwiftUITests.swift */; };
 		2A917F9C2710596F001227AA /* RoboSwiftUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A917F9B2710596F001227AA /* RoboSwiftUITestsLaunchTests.swift */; };
+		2A917FAD27105A61001227AA /* RoboMan.rcproject in Sources */ = {isa = PBXBuildFile; fileRef = 2A917FAC27105A61001227AA /* RoboMan.rcproject */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -39,7 +39,6 @@
 		2A917F762710596D001227AA /* RoboSwift.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RoboSwift.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		2A917F792710596D001227AA /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		2A917F7B2710596D001227AA /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		2A917F7D2710596D001227AA /* Experience.rcproject */ = {isa = PBXFileReference; lastKnownFileType = file.rcproject; path = Experience.rcproject; sourceTree = "<group>"; };
 		2A917F802710596D001227AA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		2A917F822710596F001227AA /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		2A917F852710596F001227AA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -48,6 +47,7 @@
 		2A917F952710596F001227AA /* RoboSwiftUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = RoboSwiftUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		2A917F992710596F001227AA /* RoboSwiftUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RoboSwiftUITests.swift; sourceTree = "<group>"; };
 		2A917F9B2710596F001227AA /* RoboSwiftUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RoboSwiftUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		2A917FAC27105A61001227AA /* RoboMan.rcproject */ = {isa = PBXFileReference; lastKnownFileType = file.rcproject; path = RoboMan.rcproject; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -100,8 +100,8 @@
 			children = (
 				2A917F792710596D001227AA /* AppDelegate.swift */,
 				2A917F7B2710596D001227AA /* ViewController.swift */,
-				2A917F7D2710596D001227AA /* Experience.rcproject */,
 				2A917F7F2710596D001227AA /* Main.storyboard */,
+				2A917FAC27105A61001227AA /* RoboMan.rcproject */,
 				2A917F822710596F001227AA /* Assets.xcassets */,
 				2A917F842710596F001227AA /* LaunchScreen.storyboard */,
 			);
@@ -258,7 +258,7 @@
 			files = (
 				2A917F7C2710596D001227AA /* ViewController.swift in Sources */,
 				2A917F7A2710596D001227AA /* AppDelegate.swift in Sources */,
-				2A917F7E2710596D001227AA /* Experience.rcproject in Sources */,
+				2A917FAD27105A61001227AA /* RoboMan.rcproject in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

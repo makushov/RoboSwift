@@ -12,13 +12,24 @@ class ViewController: UIViewController {
     
     @IBOutlet var arView: ARView!
     
+    var anchor: RoboMan.Сцена!
+    let button = UIButton()
+    
     override func viewDidLoad() {
         super.viewDidLoad()
         
-        // Load the "Box" scene from the "Experience" Reality File
-        let boxAnchor = try! Experience.loadBox()
+        anchor = try! RoboMan.loadСцена()
+        anchor.generateCollisionShapes(recursive: true)
         
-        // Add the box anchor to the scene
-        arView.scene.anchors.append(boxAnchor)
+        arView.scene.anchors.append(anchor)
+        
+        arView.addSubview(button)
+        button.frame = CGRect(x: 16, y: 50, width: UIScreen.main.bounds.size.width - 32, height: 30)
+        button.setTitle("Start expirience", for: .normal)
+        button.addTarget(self, action: #selector(observeTap), for: .touchUpInside)
+    }
+    
+    @objc func observeTap() {
+        anchor.notifications.roboStart.post()
     }
 }
